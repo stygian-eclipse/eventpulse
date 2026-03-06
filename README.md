@@ -63,6 +63,7 @@ Event details are dispatched through the OS share sheet (text payload with title
 - Add RSVP/status per participant and attach ICS exports in the share payload.
 - Expand the notification system with smart suggestions (travel time, follow-up reminders).
 - Harden input validation (conflicting ranges, email validation) and add unit tests around `EventsContext` reducers.
+<<<<<<< HEAD
 # EventPulse
 
 EventPulse is a lightweight cross-platform (iOS + Android) scheduler built with Expo/React Native. It ships with:
@@ -126,3 +127,5 @@ Event details are dispatched through the OS share sheet (text payload with title
 - Add RSVP/status per participant and attach ICS exports in the share payload.
 - Expand the notification system with smart suggestions (travel time, follow-up reminders).
 - Harden input validation (conflicting ranges, email validation) and add unit tests around `EventsContext` reducers.
+=======
+>>>>>>> 3154697a (Update readme)
