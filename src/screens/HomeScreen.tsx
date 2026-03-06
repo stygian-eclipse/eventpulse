@@ -69,7 +69,7 @@ const HomeScreen: React.FC = () => {
         <Calendar
           onDayPress={onDayPress}
           markedDates={marked}
-          markingType=\"multi-dot\"
+          markingType="multi-dot"
           current={selectedDate}
           enableSwipeMonths
           theme={calendarTheme}
