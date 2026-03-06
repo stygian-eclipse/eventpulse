@@ -7,7 +7,7 @@ EventPulse is a lightweight cross-platform (iOS + Android) scheduler built with 
 - Local push notifications through `expo-notifications` with configurable reminder presets.
 - Event creation/editing with participant management and quick sharing through the native share sheet.
 
-<<<<<<< HEAD
+
 This application is only for research purposes only.
 
 ## Getting started
