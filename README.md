@@ -7,6 +7,7 @@ EventPulse is a lightweight cross-platform (iOS + Android) scheduler built with 
 - Local push notifications through `expo-notifications` with configurable reminder presets.
 - Event creation/editing with participant management and quick sharing through the native share sheet.
 
+<<<<<<< HEAD
 This application is only for research purposes only.
 
 ## Getting started
@@ -73,6 +74,8 @@ EventPulse is a lightweight cross-platform (iOS + Android) scheduler built with 
 - Local push notifications through `expo-notifications` with configurable reminder presets.
 - Event creation/editing with participant management and quick sharing through the native share sheet.
 
+=======
+>>>>>>> d8320c61 (Initial commit)
 ## Getting started
 
 1. **Install dependencies** (requires Node 18+, npm 9+):
@@ -127,5 +130,8 @@ Event details are dispatched through the OS share sheet (text payload with title
 - Add RSVP/status per participant and attach ICS exports in the share payload.
 - Expand the notification system with smart suggestions (travel time, follow-up reminders).
 - Harden input validation (conflicting ranges, email validation) and add unit tests around `EventsContext` reducers.
+<<<<<<< HEAD
 =======
 >>>>>>> 3154697a (Update readme)
+=======
+>>>>>>> d8320c61 (Initial commit)
