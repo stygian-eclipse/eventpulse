@@ -31,25 +31,27 @@
       "output": "single"
     },
     "plugins": [
-      [
-        "expo-notifications",
-        {
-          "sounds": ["./assets/notification.wav"],
-          "icon": "./assets/notification-icon.png"
-        }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "compileSdkVersion": 35,
-            "targetSdkVersion": 35,
-            "buildToolsVersion": "35.0.0",
+	  "./withAndroidFixed", 
+	  [
+		"expo-notifications",
+		{
+		  "sounds": ["./assets/notification.wav"],
+		  "icon": "./assets/notification-icon.png"
+		}
+	  ],
+	  [
+		"expo-build-properties",
+		{
+		  "android": {
+			"compileSdkVersion": 35,
+			"targetSdkVersion": 35,
+			"buildToolsVersion": "35.0.0",
+			"gradleVersion": "8.10.2",
 			"newArchEnabled": true,
 			"jsEngine": "hermes"
-          }
-        }
-      ]
-    ]
+		  }
+		}
+	  ]
+	]
   }
 }

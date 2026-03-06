@@ -9,6 +9,13 @@ import EventDetailScreen from './src/screens/EventDetailScreen';
 import { EventsProvider } from './src/context/EventsContext';
 import { configureNotificationChannel, ensureNotificationPermissions } from './src/services/notifications';
 import { RootStackParamList } from './src/navigation/types';
+import * as Crypto from 'expo-crypto';
+
+if (typeof global.crypto !== 'object') {
+  global.crypto = {
+    getRandomValues: (array: any) => Crypto.getRandomValues(array),
+  } as any;
+}
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({

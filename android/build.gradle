@@ -5,15 +5,13 @@ buildscript {
     google()
     mavenCentral()
   }
-  // --- ADD THIS SECTION ---
   configurations.all {
-    resolutionStrategy {
-      force 'com.android.tools.build:gradle:8.7.3'
+        resolutionStrategy {
+            force 'com.android.tools.build:gradle:8.8.0'
+        }
     }
-  }
-  // ------------------------
-  dependencies {
-    classpath('com.android.tools.build:gradle:8.7.3')
+    dependencies {
+    classpath('com.android.tools.build:gradle')
     classpath('com.facebook.react:react-native-gradle-plugin')
     classpath('org.jetbrains.kotlin:kotlin-gradle-plugin')
   }
@@ -30,7 +28,7 @@ allprojects {
 apply plugin: "expo-root-project"
 apply plugin: "com.facebook.react.rootproject"
 
-subprojects {
+allprojects {
     configurations.all {
         resolutionStrategy {
             force 'androidx.core:core:1.12.0'
